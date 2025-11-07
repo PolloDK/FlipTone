@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Gradiente FlipTone */
+.text-gradient {
+  background: linear-gradient(90deg, #065FA8 0%, #2B9CE3 45%, #7EE6FD 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Ocultar scrollbars en mobile */
+::-webkit-scrollbar {
+  display: none;
+}
